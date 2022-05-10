@@ -20,16 +20,35 @@
                 </div>
             </div>
         </header>
+        <div id="topnav" class="topnav">
+            <a id="home_link" class="topnav_link"></a>       
+            <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+              <!-- Some spans to act as a hamburger -->
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+        
+            <!-- Responsive Menu -->
+            <nav role="navigation" id="topnav_responsive_menu">
+              <ul>
+                <li><a class="fa-solid fa-user-lock" href="SeConnecter"> Se Connecter</a></li>
+                <li><a class="fa-solid fa-futbol" href="LeClub"> Le Club</a></li>
+                <li><a class="fa-solid fa-handshake" href="Sponsors"> Sponsors</a></li>
+                <li><a class="fa-solid fa-cart-shopping" href="Boutique"> Boutique</a></li>
+                <li><a class="fa-solid fa-file-pen" href="CGU"> CGU</a></li>
+              </ul>
+            </nav>
+          </div>
+
         <div class="container">
             <nav class="menu">
                 <ul>
-                    <li><a href="#SeConnecter"><i class="fa-solid fa-user-lock"></i> Se Connecter</a></li>
-                    <li><a href="#LeClub"><i class="fa-solid fa-futbol"></i> Le Club</a></li>
-                    <li><a href="#Sponsors"><i class="fa-solid fa-handshake"></i> Sponsors</a></li>
-                    <li><a href="#Boutique"><i class="fa-solid fa-cart-shopping"></i> Boutique</a></li>
+                    <li><a href="#senA"><i class="fa-solid fa-people-group"></i> Seniors A</a></li>
+                    <li><a href="#senB"><i class="fa-solid fa-people-group"></i> Seniors B</a></li>
+                    <li><a href="#u13eq1"><i class="fa-solid fa-people-group"></i> U13 Equipe n°1</a></li>
                 </ul>
             </nav>
-
             <div class="content"><!--Corps de la page-->
 
 
@@ -97,5 +116,6 @@
                 <p>..</p>
             </div>
         </footer>
+        <script src="script.js" async defer></script>
     </body>
 </html>
