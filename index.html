@@ -1,121 +1,130 @@
 <!DOCTYPE html>
-
-<html lang="fr">
+<html>
     <head>
-        <link href="css/all.css" rel="stylesheet"> <!--Chargement des images -->
-	    <meta charset="utf-8" />
-	    <title>Projet - J.S. DISTROFF</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Projet - J.S. DISTROFF</title>
         <link rel="shortcut icon" type="image/x-icon" href="iconeClubSansFond.png" />
-        <link rel="stylesheet" media="screen and (min-width:721px)" href="style.css" />
-        <link rel="stylesheet" media="screen and (max-width:720px)" href="mobile.css" />
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/all.css" rel="stylesheet"> <!--Chargement des images -->
+        <link rel="stylesheet" media="screen and (min-width:769px)" href="style.css" />
+        <link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css" />
     </head>
+
     <body>
-        <header class="header">
-            <div class="header-content">
-                <div class="header-logo"> <!--Classe pour le logo-->
-                    <img src="iconeClubBlanc.jpg">
-                </div>
-                <div class="header-title"> <!--Titre-->
-                    <h1 id="titre"></h1>
-                </div>
+      <header class="header">
+        <div class="header-content">
+            <div class="header-logo"> <!--Classe pour le logo-->
+                <img src="iconeClubBlanc.jpg">
             </div>
-        </header>
-        <div id="topnav" class="topnav">
-            <a id="home_link" class="topnav_link"></a>       
-            <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
-              <!-- Some spans to act as a hamburger -->
-              <span></span>
-              <span></span>
-              <span></span>
-            </a>
-        
-            <!-- Responsive Menu -->
-            <nav role="navigation" id="topnav_responsive_menu">
-              <ul>
-                <li><a class="fa-solid fa-user-lock" href="SeConnecter"> Se Connecter</a></li>
-                <li><a class="fa-solid fa-futbol" href="LeClub"> Le Club</a></li>
-                <li><a class="fa-solid fa-handshake" href="Sponsors"> Sponsors</a></li>
-                <li><a class="fa-solid fa-cart-shopping" href="Boutique"> Boutique</a></li>
-                <li><a class="fa-solid fa-file-pen" href="CGU"> CGU</a></li>
-              </ul>
-            </nav>
-          </div>
 
-        <div class="container">
-            <nav class="menu">
-                <ul>
-                    <li><a href="#senA"><i class="fa-solid fa-people-group"></i> Seniors A</a></li>
-                    <li><a href="#senB"><i class="fa-solid fa-people-group"></i> Seniors B</a></li>
-                    <li><a href="#u13eq1"><i class="fa-solid fa-people-group"></i> U13 Equipe n°1</a></li>
-                </ul>
-            </nav>
-            <div class="content"><!--Corps de la page-->
-
-
-                <h2 id="senA">Seniors A</h2>
-                <div class="BlockForMatch BlockForMatchMobile">
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Dernier Match: 24-04-2022</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Prochain Match: 01-2022</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Classment</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-                </div>
-
-
-                <h2 id="senB">Seniors B</h2>
-                <div class="BlockForMatch BlockForMatchMobile">
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Dernier Match: 24-04-2022</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Prochain Match: 01-2022</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Classment</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-                </div>
-                
-
-
-                <h2 id="u13eq1">U13 Equipe n°1</h2>
-                <div class="BlockForMatch BlockForMatchMobile">
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Dernier Match: 24-04-2022</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Prochain Match: 01-2022</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-
-                    <div class="blockSize blockSizeMobile">
-                        <h3>Classment</h3>
-                        <p>JSD 4 - 1 AGM</p>
-                    </div>
-                </div>
-
+            <div class="header-title"> <!--Titre-->
+                <h1 id="titre"></h1>
             </div>
         </div>
-        <footer class="footer">
-            <div class="footer-logo">
-                <p>..</p>
+    </header>
+
+      <div id="root">
+        <div id="topnav" class="topnav">
+          <a id="home_link" class="topnav_link fa-solid fa-user-lock" href="/"> Se Connecter</a>
+      
+          <!-- Menu PC -->
+          <nav role="navigation" id="topnav_menu">
+            <a class="topnav_link fa-solid fa-futbol" href="/Club"> Le Club</a>
+            <a class="topnav_link fa-solid fa-handshake" href="Sponsors"> Sponsors</a>
+            <a class="topnav_link fa-solid fa-cart-shopping" href="Boutique"> Boutique</a>
+            <a class="topnav_link fa-solid fa-file-pen" href="CGU"> CGU</a>
+          </nav>
+      
+          <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+            <!-- Some spans to act as a hamburger -->
+            <span></span>
+            <span></span>
+            <span></span>
+          </a>
+      
+          <!-- Responsive Menu -->
+          <nav role="navigation" id="topnav_responsive_menu">
+            <ul>
+              <li><a class="fa-solid fa-futbol" href="LeClub"> Le Club</a></li>
+              <li><a class="fa-solid fa-handshake" href="Sponsors"> Sponsors</a></li>
+              <li><a class="fa-solid fa-cart-shopping" href="Boutique"> Boutique</a></li>
+              <li><a class="fa-solid fa-file-pen" href="CGU"> CGU</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>    
+        
+      
+      <div class="container">
+        <div class="content"><!--Corps de la page-->
+
+
+            <h2 id="senA">Seniors A</h2>
+            <div class="BlockForMatch BlockForMatchMobile">
+                <div class="blockSize blockSizeMobile">
+                    <h3>Dernier Match: 24-04-2022</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
+
+                <div class="blockSize blockSizeMobile">
+                    <h3>Prochain Match: 01-2022</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
+
+                <div class="blockSize blockSizeMobile">
+                    <h3>Classment</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
             </div>
-        </footer>
+
+
+            <h2 id="senB">Seniors B</h2>
+            <div class="BlockForMatch BlockForMatchMobile">
+                <div class="blockSize blockSizeMobile">
+                    <h3>Dernier Match: 24-04-2022</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
+
+                <div class="blockSize blockSizeMobile">
+                    <h3>Prochain Match: 01-2022</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
+
+                <div class="blockSize blockSizeMobile">
+                    <h3>Classment</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
+            </div>
+            
+
+
+            <h2 id="u13eq1">U13 Equipe n°1</h2>
+            <div class="BlockForMatch BlockForMatchMobile">
+                <div class="blockSize blockSizeMobile">
+                    <h3>Dernier Match: 24-04-2022</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
+
+                <div class="blockSize blockSizeMobile">
+                    <h3>Prochain Match: 01-2022</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
+
+                <div class="blockSize blockSizeMobile">
+                    <h3>Classment</h3>
+                    <p>JSD 4 - 1 AGM</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-logo">
+            <p>..</p>
+        </div>
+    </footer>
         <script src="script.js" async defer></script>
     </body>
 </html>
