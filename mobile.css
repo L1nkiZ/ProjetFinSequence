@@ -128,7 +128,11 @@ display: none;
     #home_link {
       flex-grow: 1;
     }
-  
+
+    .home_right{
+      text-align: right;
+    }
+    
     /* disable horizontal scrolling  */
     #root {
       position: relative;
@@ -233,7 +237,7 @@ display: none;
   
      /* set the 3 spans position to look like a hamburger */
      #topnav_hamburger_icon span:nth-child(1) {
-      background-color: #AE1513;
+      background-color: white;
     top: 0px;
     -webkit-transform-origin: left top;
     -moz-transform-origin: left top;
@@ -241,7 +245,7 @@ display: none;
     transform-origin: left top;
   }
   #topnav_hamburger_icon span:nth-child(2) {
-      background-color: #612E4D;
+      background-color: white;
     top: 12px;
     -webkit-transform-origin: left center;
     -moz-transform-origin: left center;
@@ -249,12 +253,12 @@ display: none;
     transform-origin: left center;
   }
   #topnav_hamburger_icon span:nth-child(3) {
-      background-color: #21447D;
-    top: 24px;
-    -webkit-transform-origin: left bottom;
-    -moz-transform-origin: left bottom;
-    -o-transform-origin: left bottom;
-    transform-origin: left bottom;
+      background-color: white;
+      top: 24px;
+      -webkit-transform-origin: left bottom;
+      -moz-transform-origin: left bottom;
+      -o-transform-origin: left bottom;
+      transform-origin: left bottom;
   }
     /* change color when opening the menu */
     #topnav_hamburger_icon.open span {
@@ -263,6 +267,7 @@ display: none;
   
     /* the first span rotates 45° \ */
     #topnav_hamburger_icon.open span:nth-child(1) {
+      background-color: white;
       width: 110%;
       -webkit-transform: rotate(45deg);
       -moz-transform: rotate(45deg);
@@ -278,6 +283,7 @@ display: none;
   
     /* the last span rotates -45° / */
     #topnav_hamburger_icon.open span:nth-child(3) {
+      background-color: white;
       width: 110%;
       -webkit-transform: rotate(-45deg);
       -moz-transform: rotate(-45deg);

@@ -16,7 +16,7 @@
       <header class="header">
         <div class="header-content">
             <div class="header-logo"> <!--Classe pour le logo-->
-                <img src="/IconeClub/iconeClubBlanc.jpg">
+                <img src="IconeClub/iconeClubBlanc.jpg">
             </div>
 
             <div class="header-title"> <!--Titre-->
@@ -27,7 +27,13 @@
 
       <div id="root">
         <div id="topnav" class="topnav">
-          <a id="home_link" class="topnav_link fa-solid fa-user-lock" href="/"> Se Connecter</a>
+            <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                <!-- Some spans to act as a hamburger -->
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+          <a id="home_link" class="topnav_link fa-solid fa-user-lock home_right" href="/"> Se Connecter</a>
       
           <!-- Menu PC -->
           <nav role="navigation" id="topnav_menu">
@@ -37,12 +43,7 @@
             <a class="topnav_link fa-solid fa-file-pen" href="CGU"> CGU</a>
           </nav>
       
-          <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
-            <!-- Some spans to act as a hamburger -->
-            <span></span>
-            <span></span>
-            <span></span>
-          </a>
+
       
           <!-- Responsive Menu -->
           <nav role="navigation" id="topnav_responsive_menu">
