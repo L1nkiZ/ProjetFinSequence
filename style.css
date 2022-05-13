@@ -28,34 +28,6 @@ html,body { /* Consigne pour toute la page */
   height: 256px;
 }
 
-.menu {
-  width: 256px;
-  font-size: 120%;
-}
-
-.menu ul{
-  list-style-type: none; /*retire les points du menu*/
-}
-
-.menu a {
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  display: block;
-  padding: 6px 8px; /*paddin droite / gauche*/
-  margin-right: 32px;
-  margin-top: 8px;
-  text-decoration: none;
-  color: rgb(174, 21, 19);
-}
-
-.menu a:hover { 
-  color: rgb(33, 68, 125); 
-}
-
-.menu .fas {
-  margin-right: 8px;
-  margin-left: 8px;
-}
-
 h1{
   margin: 0;
   font-variant: small-caps;
@@ -75,6 +47,7 @@ h2{
   flex: 1;
   min-height: 512px;
   margin-right: 256px;
+  margin-left: 128px;
   margin-bottom: 128px;
 }
 
@@ -122,6 +95,7 @@ h2{
       align-items: center;
       box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.3); /*Petite ombre sur le bandeau*/
   }
+
 /* ******************** NAV BAR ******************** */
 .topnav {
   background-color: #333;
@@ -129,13 +103,20 @@ h2{
   align-items: center;
   width: 100%;
 }
+
 .topnav_link {
   color: white;
   padding: 12px;
   text-decoration: none;
 }
+
+.topnav_link .fa {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
 .topnav_link:hover {
-  color: #0078b4;
+  color: rgb(33, 68, 125);
 }
 
 /* hide responsive menu */
