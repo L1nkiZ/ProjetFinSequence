@@ -87,7 +87,7 @@ h2{
 }
 
 .footer{
-      height: 256px;
+      height: 128px;
       background: linear-gradient(to right, rgb(174, 21, 19), rgb(33, 68, 125)); /* dégradé */
       display: flex;
       justify-content: center;
