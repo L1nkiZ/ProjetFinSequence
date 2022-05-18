@@ -1,6 +1,0 @@
-Rouge : 174 21 19   Hexa: AE1513
-
-Bleu : 33 68 125    Hexa: 21447D
-
-Violet : 97 46 77   Hexa: 612E4D
-
