@@ -28,6 +28,10 @@ html,body { /* Consigne pour toute la page */
   height: 256px;
 }
 
+.header-btnConnexion{
+  display: none;
+}
+
 h1{
   margin: 0;
   font-variant: small-caps;

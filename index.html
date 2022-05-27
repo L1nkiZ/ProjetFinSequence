@@ -7,20 +7,24 @@
         <link rel="shortcut icon" type="image/x-icon" href="/IconeClub/iconeClubSansFond.png" />
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/all.css" rel="stylesheet"> <!--Chargement des images -->
-        <link rel="stylesheet" media="screen and (min-width:769px)" href="style.css" />
-        <link rel="stylesheet" media="screen and (max-width:768px)" href="mobile.css" />
+        <link href="ressource/css/all.css" rel="stylesheet"> <!--Chargement des images -->
+        <link href="ressource/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
+        <link rel="stylesheet" media="screen and (min-width:769px)" href="ressource/css/style.css" />
+        <link rel="stylesheet" media="screen and (max-width:768px)" href="ressource/css/mobile.css" />
     </head>
 
     <body>
       <header class="header">
         <div class="header-content">
             <div class="header-logo"> <!--Classe pour le logo-->
-                <img src="IconeClub/iconeClubBlanc.jpg">
+                <img src="IconeClub/iconeClubBlanc.jpg">   
             </div>
-
             <div class="header-title"> <!--Titre-->
                 <h1 id="titre"></h1>
+            </div>
+            <div class="header-btnConnexion">
+                <button type="button" class="btn btn-primary mb-2 fa-solid"><i class="fa-solid fa-power-off"></i> Connexion</button>
             </div>
         </div>
     </header>
@@ -28,7 +32,7 @@
       <div id="root">
         <div id="topnav" class="topnav">
             <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
-                <!-- Some spans to act as a hamburger -->
+                <!-- 3 Span pour afficher les barres du menu Hamburger -->
                 <span></span>
                 <span></span>
                 <span></span>
@@ -43,7 +47,6 @@
             <a class="topnav_link fa-solid fa-file-pen" href="CGU"> CGU</a>
           </nav>
       
-
       
           <!-- Responsive Menu -->
           <nav role="navigation" id="topnav_responsive_menu">
@@ -59,7 +62,7 @@
         
       
       <div class="container">
-        <div class="content"><!--Corps de la page-->
+        <div class="content mt-4"><!--Corps de la page-->
 
 
             <h2 id="senA">Seniors A</h2>
@@ -78,7 +81,7 @@
                     <h3>Classment</h3>
                     <p>JSD 4 - 1 AGM</p>
                 </div>
-            </div>
+            </div><br>
 
 
             <h2 id="senB">Seniors B</h2>
@@ -97,7 +100,7 @@
                     <h3>Classment</h3>
                     <p>JSD 4 - 1 AGM</p>
                 </div>
-            </div>
+            </div><br>
             
 
 
@@ -117,7 +120,7 @@
                     <h3>Classment</h3>
                     <p>JSD 4 - 1 AGM</p>
                 </div>
-            </div>
+            </div><br>
 
         </div>
     </div>

@@ -26,7 +26,18 @@ html,body { /* Consigne pour toute la page */
 
 .header-logo img {
   height: 256px;
+  text-align: center;
 }
+
+.header-btnConnexion{
+  position: absolute;
+  font-size: 15px;
+  height: 40px;
+  display: block;
+  right: 4%;
+  top: 4%;
+}
+
 
 h1{
   margin: 0;
@@ -102,12 +113,14 @@ h2{
   display: flex;
   align-items: center;
   width: 100%;
+  justify-content: center;
 }
 
 .topnav_link {
-  color: white;
+  color:rgba(255, 255, 255, 0.8);
   padding: 12px;
   text-decoration: none;
+  margin: 0 15px 0 15px;
 }
 
 .topnav_link .fa {
@@ -116,12 +129,16 @@ h2{
 }
 
 .topnav_link:hover {
-  color: rgb(33, 68, 125);
+  color: rgba(255, 255, 255, 1);
 }
 
 /* hide responsive menu */
 #topnav_hamburger_icon,
 #topnav_responsive_menu {
+  display: none;
+}
+
+#home_link{
   display: none;
 }
 
