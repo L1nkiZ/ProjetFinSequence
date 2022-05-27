@@ -103,24 +103,24 @@ h2{
 
   /* ******************** NAV BAR ******************** */
 .topnav {
-background-color: #333;
-display: flex;
-align-items: center;
-width: 100%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 .topnav_link {
-color: white;
-padding: 12px;
-text-decoration: none;
+  color:rgba(255, 255, 255, 0.8);
+  padding: 12px;
+  text-decoration: none;
 }
 .topnav_link:hover {
-color: #0078b4;
+  color: rgba(255, 255, 255, 1);
 }
 
 /* hide responsive menu */
 #topnav_hamburger_icon,
 #topnav_responsive_menu {
-display: none;
+  display: none;
 }
 
     /* hide classic menu */
