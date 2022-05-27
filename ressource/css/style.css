@@ -108,7 +108,7 @@ h2{
   }
 
 /* ******************** NAV BAR ******************** */
-.topnav {
+.topnavPC {
   background-color: #333;
   display: flex;
   align-items: center;
@@ -123,12 +123,12 @@ h2{
   margin: 0 15px 0 15px;
 }
 
-.topnav_link .fa {
+.topnavPC_link .fa {
   margin-right: 8px;
   margin-left: 8px;
 }
 
-.topnav_link:hover {
+.topnavPC_link:hover {
   color: white;
   background-color: rgba(80, 79, 79, 1);
 }
