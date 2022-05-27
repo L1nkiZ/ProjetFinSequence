@@ -103,24 +103,21 @@ h2{
 
   /* ******************** NAV BAR ******************** */
 .topnav {
-  background-color: #333;
-  display: flex;
-  align-items: center;
-  width: 100%;
+background-color: #333;
+display: flex;
+align-items: center;
+width: 100%;
 }
 .topnav_link {
-  color:rgba(255, 255, 255, 0.8);
-  padding: 12px;
-  text-decoration: none;
-}
-.topnav_link:hover {
-  color: rgba(255, 255, 255, 1);
+color: white;
+padding: 12px;
+text-decoration: none;
 }
 
 /* hide responsive menu */
 #topnav_hamburger_icon,
 #topnav_responsive_menu {
-  display: none;
+display: none;
 }
 
     /* hide classic menu */
@@ -148,15 +145,15 @@ h2{
       display: block;
       position: absolute;
       margin: 0;
-      right: 0;
+      left: 0;
       top: 0;
       width: 100vw;
       height: 100vh;
   
       z-index: 99;
   
-      transform-origin: 0% 0%;
-      transform: translate(200%, 0);
+      transform-origin: 100% 100%;
+      transform: translate(-100%, 0);
   
       transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
     }
@@ -167,7 +164,7 @@ h2{
   
       position: absolute;
       margin: 0;
-      right: 0;
+      left: 0;
       top: 0;
   
       min-width: 50vw;
@@ -293,5 +290,6 @@ h2{
       -moz-transform: rotate(-45deg);
       -o-transform: rotate(-45deg);
       transform: rotate(-45deg);
+
     }
   
