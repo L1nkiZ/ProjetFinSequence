@@ -153,21 +153,36 @@ h2{
 }
 
 .topnavMobile {
-background-color: #333;
-display: flex;
-align-items: center;
-width: 100%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  width: 100%;
 }
 .topnav_link {
-color: white;
-padding: 12px;
-text-decoration: none;
+  color: white;
+  background-color: #333;
+  /* padding: 12px; */
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  transition: 0.4s transform linear;
 }
 
 /* hide responsive menu */
 #topnav_hamburger_icon,
 #topnav_responsive_menu {
 display: none;
+}
+
+#btnConnectionMobile{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  background-color: yellow;
+  cursor: pointer;
+  transition: 0.4s transform linear;
 }
 
     /* hide classic menu */
@@ -181,7 +196,7 @@ display: none;
     }
 
     .home_right{
-      text-align: right;
+      margin-left: 80%;
     }
     
     /* disable horizontal scrolling  */
