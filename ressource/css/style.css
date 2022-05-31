@@ -157,10 +157,6 @@ h2{
   width: 10px;
 }
 
-.ClassementNomClub{
-  padding-left: 0px;
-}
-
 .footer{
   height: 256px;
   background: linear-gradient(to right, rgb(174, 21, 19), rgb(33, 68, 125)); /* dégradé */
