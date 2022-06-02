@@ -166,6 +166,26 @@ h2{
   box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.3); /*Petite ombre sur le bandeau*/
   }
 
+  .reseau{
+    text-align: center;
+}
+
+.youtube{
+    color: #c4302b;
+}
+
+.linkedin{
+    color: #0E76A8;
+}
+
+.twitter{
+    color: #00acee;
+}
+
+.facebook{
+    color: #3b5998;
+}
+
 /* ******************** NAV BAR ******************** */
 .topnavPC {
   background-color: #333;

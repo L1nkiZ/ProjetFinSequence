@@ -153,6 +153,9 @@ h2{
   height: 60px;
 }
 
+.reseau{
+  display: none;
+}
 
   /* ******************** NAV BAR ******************** */
 .topnavPC{
@@ -215,6 +218,9 @@ display: none;
   
     /* show responsive menu and position at the right of the screen */
     #topnav_responsive_menu {
+      flex-direction: column;
+      justify-content: space-between;
+
       display: block;
       position: absolute;
       margin: 0;
@@ -365,4 +371,27 @@ display: none;
       transform: rotate(-45deg);
 
     }
+
+    .nav-mobile__social {
+      padding: 0;
+      margin-top: 335px;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+.youtube{
+    color: #c4302b;
+}
+
+.twitter{
+    color: #00acee;
+}
+
+.facebook{
+    color: #3b5998;
+    height: 32px;
+}
+  
   
