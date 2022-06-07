@@ -15,6 +15,33 @@
     </head>
 
     <body>
+
+      <div id="topnavMobile" class="topnavMobile">
+        <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+            <!-- 3 Span pour afficher les barres du menu Hamburger -->
+            <span></span>
+            <span></span>
+            <span></span>
+            <a id="home_link" href="connexion.html"><button class="topnav_link fa-solid fa-power-off home_right btnConnectionMobile" href="connexion.html"></button></a>
+        </a>
+        <div class="topMenu"></div>
+
+
+                    <!-- Responsive Menu -->
+        <nav role="navigation" id="topnav_responsive_menu">
+            <ul>
+                <li><a class="fa-solid fa-futbol" href="LeClub"> Le Club</a></li>
+                <li><a class="fa-solid fa-handshake" href="Sponsors"> Sponsors</a></li>
+                <li><a class="fa-solid fa-cart-shopping" href="Boutique"> Boutique</a></li>
+                <li><a class="fa-solid fa-file-pen" href="CGU"> CGU</a></li>
+                <li class="nav-mobile__social"><a  alt="Facebook" title="Facebook" href="https://www.facebook.com/JSDistroff"><i class="fab fa-facebook-square fa-4x facebook"></i></a></li>
+                <li class=""><a  alt="Twitter" title="Twitter" href="https://twitter.com/home"><i class="fab fa-twitter-square fa-4x twitter"></i></a></li>
+                <li class=""><a  alt="YouTube" title="YouTube" href="https://www.youtube.com"><i class="fab fa-youtube-square fa-4x youtube"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+
+
         <header class="header">
             <div class="header-content">
                 <div class="header-logo"> <!--Classe pour le logo-->
@@ -24,7 +51,11 @@
                 <h1 id="titre"></h1>
             </div>
             <div class="header-btnConnexion">
-                <button type="button" class="btn btn-primary mb-2 fa-solid"><i class="fa-solid fa-power-off"></i> Connexion</button>
+              <form>
+                  <a href="index.html">
+                      <button type="button" class="btn btn-primary mb-2 fa-solid"><i class="fa-solid fas fa-home"></i>Acceuil</button>
+                  </a>
+              </form>   
             </div>
             </div>
         </header>
@@ -96,7 +127,7 @@
                                 <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                   
                                   <img src="https://t1.uc.ltmcdn.com/fr/posts/8/4/8/quelle_est_la_taille_d_un_terrain_de_football_12848_orig.jpg"
-                                    class="img-fluid" alt="Sample image">
+                                    class="img-fluid iconeInscription" alt="Sample image">
                   
                                 </div>
                               </div>
