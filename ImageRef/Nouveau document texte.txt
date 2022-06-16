@@ -1,0 +1,14 @@
+Template Boostrape 
+
+
+Icone avec front awsome
+
+Font couleur moins vif, couleur plus terne 
+
+Menu ne reste pas si scroll, mais touche menu qui se place en haut à gauche pour y avoir accès 
+
+pour version mobile donc tout passé en vertical, plus horizontale 
+
+En bas sponso clef. 
+
+Architecture MVC pour la base.

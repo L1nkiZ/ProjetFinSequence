@@ -1,0 +1,249 @@
+/*PC*/
+
+html,
+body {
+    /* Consigne pour toute la page */
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Clarendon LT", "Lulo Clean", "Georgia", "Arial", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.header {
+    /* Bandeau pour le titre */
+    height: 256px;
+    background: linear-gradient(to right, rgb(174, 21, 19), rgb(33, 68, 125));
+    /* dégradé */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.3);
+    /*Petite ombre sur le bandeau*/
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    margin: 16px;
+}
+
+.header-logo img {
+    height: 256px;
+    text-align: center;
+}
+
+.header-btnConnexion {
+    position: absolute;
+    font-size: 15px;
+    height: 40px;
+    display: block;
+    right: 4%;
+    top: 4%;
+}
+
+h1 {
+    margin: 0;
+    font-variant: small-caps;
+}
+
+h2 {
+    font-size: xx-large;
+    font-variant: small-caps;
+    color: rgb(174, 21, 19);
+    margin-bottom: 8px;
+}
+
+.container {
+    /* Position du block */
+    display: flex;
+}
+
+.content {
+    /* gestion du block text */
+    flex: 1;
+    min-height: 512px;
+    margin-top: 32px;
+    margin-right: 64px;
+    margin-left: 64px;
+    margin-bottom: 32px;
+}
+
+.content p {
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.BlockForMatch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.blockSize {
+    flex: 1 1 50%;
+    border: 1px solid #c3c3c3;
+    height: 128px;
+    width: 512px;
+}
+
+.blockSize p {
+    text-align: center;
+    font-size: x-large;
+    color: rgb(33, 68, 125);
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.blockSize h3 {
+    margin: 0px;
+    padding: 6px 0px 4px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    background-image: -webkit-linear-gradient(30deg, rgb(33, 68, 125) 80%, #fff 40%);
+    background-repeat: no-repeat;
+    display: block;
+    width: 386px;
+    letter-spacing: 1px;
+}
+
+.logoMatch {
+    padding: 10px;
+    height: 80px;
+}
+
+.blockClassementPC {
+    flex: 1 1 100%;
+    border: 1px solid #c3c3c3;
+    width: 512px;
+    text-align: left;
+    height: 255px;
+    overflow: scroll;
+}
+
+.blockClassementPC h3 {
+    margin: 0px;
+    padding: 6px 0px 4px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    background-image: -webkit-linear-gradient(30deg, rgb(33, 68, 125) 80%, #fff 40%);
+    background-repeat: no-repeat;
+    display: block;
+    width: 386px;
+    letter-spacing: 1px;
+}
+
+.blockClassementPC th {
+    color: #21447D;
+    font-size: large;
+    padding: 0.75rem;
+}
+
+.blockClassementPC td {
+    color: #21447D;
+    font-size: x-large;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.blockClassementPC td p {
+    margin-left: 4px;
+}
+
+.blockClassementPC img {
+    height: 40px;
+}
+
+.blockClassementMobile {
+    display: none;
+}
+
+.ClassementImgClub {
+    width: 10px;
+}
+
+.footer {
+    height: 256px;
+    background: linear-gradient(to right, rgb(174, 21, 19), rgb(33, 68, 125));
+    /* dégradé */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.3);
+    /*Petite ombre sur le bandeau*/
+}
+
+.reseau {
+    text-align: center;
+}
+
+.youtube {
+    color: #c4302b;
+}
+
+.linkedin {
+    color: #0E76A8;
+}
+
+.twitter {
+    color: #00acee;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+
+/* ******************** NAV BAR ******************** */
+
+.topnavPC {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.topnavPC_link {
+    color: rgba(255, 255, 255, 1);
+    padding: 12px;
+    text-decoration: none;
+    margin: 0 15px 0 15px;
+}
+
+.topnavPC_link .fa {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.topnavPC_link:hover {
+    color: white;
+    background-color: rgba(80, 79, 79, 1);
+}
+
+
+/* hide responsive menu */
+
+#topnav_hamburger_icon,
+#topnav_responsive_menu {
+    display: none;
+}
+
+#home_link {
+    display: none;
+}
+
+
+/* ------------------------------ AFFICHAGE PAGE PERSONNES.PHP --------------------------------- */
+
+.container_personne {
+    /* Position du block */
+    display: flex;
+}
+
+.content_personne {
+    /* gestion du block text */
+    flex: 1;
+    min-height: 512px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
