@@ -86,7 +86,7 @@ h2{
   text-align: center;
   font-size: x-large;
   color: rgb(33, 68, 125);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
 .blockSize h3{
@@ -107,7 +107,7 @@ h2{
   height: 80px;
 }
 
-.blockClassement {
+.blockClassementPC {
   flex: 1 1 100%;
   border: 1px solid #c3c3c3;
   width: 512px;
@@ -116,7 +116,7 @@ h2{
   overflow: scroll;
 }
 
-.blockClassement h3{
+.blockClassementPC h3{
   margin: 0px;
   padding: 6px 0px 4px 10px;
   color: white;
@@ -129,23 +129,32 @@ h2{
   letter-spacing: 1px;
 }
 
-.blockClassement th{
+.blockClassementPC th{
   color: #21447D;
   font-size: large;
+  padding: 0.75rem;
 }
 
-.blockClassement td{
+.blockClassementPC td{
   color: #21447D;
   font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 
-.blockClassement td p{
+.blockClassementPC td p{
   margin-left: 4px; 
 }
 
-.blockClassement img{
+.blockClassementPC img{
   height: 40px;
+}
+
+.blockClassementMobile{
+  display: none;
+}
+
+.ClassementImgClub {
+  width: 10px;
 }
 
 .footer{
@@ -156,6 +165,26 @@ h2{
   align-items: center;
   box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.3); /*Petite ombre sur le bandeau*/
   }
+
+  .reseau{
+    text-align: center;
+}
+
+.youtube{
+    color: #c4302b;
+}
+
+.linkedin{
+    color: #0E76A8;
+}
+
+.twitter{
+    color: #00acee;
+}
+
+.facebook{
+    color: #3b5998;
+}
 
 /* ******************** NAV BAR ******************** */
 .topnavPC {

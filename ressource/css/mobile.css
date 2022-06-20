@@ -95,7 +95,7 @@ h2{
   display: none;
 }
 
-.blockClassement {
+.blockClassementMobile {
   flex: 1 1 100%;
   border: 1px solid #c3c3c3;
   width: 50%;
@@ -104,7 +104,7 @@ h2{
   overflow: scroll;
 }
 
-.blockClassement h3{
+.blockClassementMobile h3{
   margin: 0px;
   padding: 6px 0px 4px 10px;
   color: white;
@@ -117,23 +117,27 @@ h2{
   letter-spacing: 1px;
 }
 
-.blockClassement th{
+.blockClassementMobile th{
   color: #21447D;
   font-size: large;
 }
 
-.blockClassement td{
+.blockClassementMobile td{
   color: #21447D;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.blockClassement td p{
+.blockClassementMobile td p{
   margin-left: 4px;
 }
 
-.blockClassement img{
+.blockClassementMobile img{
   height: 32px;
+}
+
+.blockClassementPC{
+  display: none;
 }
 
 .footer{
@@ -145,7 +149,13 @@ h2{
       box-shadow: inset 0px -4px 8px rgba(0, 0, 0, 0.3); /*Petite ombre sur le bandeau*/
   }
 
+.topMenu{
+  height: 60px;
+}
 
+.reseau{
+  display: none;
+}
 
   /* ******************** NAV BAR ******************** */
 .topnavPC{
@@ -157,6 +167,7 @@ h2{
   display: flex;
   align-items: center;
   width: 100%;
+  position: fixed;
 }
 .topnav_link {
   color: white;
@@ -207,6 +218,9 @@ display: none;
   
     /* show responsive menu and position at the right of the screen */
     #topnav_responsive_menu {
+      flex-direction: column;
+      justify-content: space-between;
+
       display: block;
       position: absolute;
       margin: 0;
@@ -357,4 +371,29 @@ display: none;
       transform: rotate(-45deg);
 
     }
+
+    .nav-mobile__social {
+      padding: 0;
+      margin-top: 335px;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+.youtube{
+    color: #c4302b;
+}
+
+.twitter{
+    color: #00acee;
+}
+
+.facebook{
+    color: #3b5998;
+    height: 32px;
+}
   
+.iconeInscription {
+  display: none;
+}
