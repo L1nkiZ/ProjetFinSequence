@@ -1,3 +1,4 @@
 # ProjetFinSequence
 
-Front du site pour le projet tutoté IUT Metz 2022
+Projet tutoté IUT Metz 2022 - MOULOT - FERCOT - GERARD
+ 
